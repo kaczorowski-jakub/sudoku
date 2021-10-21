@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="514.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.os.sudoku.controller.ControllerMain">
+   <children>
+      <ButtonBar layoutX="307.0" layoutY="474.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" text="Button" />
+        </buttons>
+      </ButtonBar>
+      <GridPane layoutX="12.0" layoutY="14.0" prefHeight="433.0" prefWidth="824.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" />
+          <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+          <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+          <RowConstraints vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="t20" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l20" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1">
+               <children>
+                  <TextField fx:id="t01" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l01" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2">
+               <children>
+                  <TextField fx:id="t02" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l02" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3">
+               <children>
+                  <TextField fx:id="t03" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l03" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="4">
+               <children>
+                  <TextField fx:id="t04" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l04" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="5">
+               <children>
+                  <TextField fx:id="t05" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l05" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="6">
+               <children>
+                  <TextField fx:id="t06" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l06" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="7">
+               <children>
+                  <TextField fx:id="t07" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l07" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="8">
+               <children>
+                  <TextField fx:id="t08" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l08" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="t10" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l10" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="t11" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l11" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0">
+               <children>
+                  <TextField fx:id="t00" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l00" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="t30" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l30" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="t40" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l40" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="t50" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l50" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="t60" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l60" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="t70" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l70" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="8">
+               <children>
+                  <TextField fx:id="t80" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l80" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="t21" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l21" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="t31" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l31" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="t41" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l41" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="t51" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l51" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="t61" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l61" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="t71" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l71" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <children>
+                  <TextField fx:id="t81" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l81" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="t12" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l12" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="t22" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l22" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="t32" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l32" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="t42" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l42" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="t52" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l52" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="t62" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l62" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="t72" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l72" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <children>
+                  <TextField fx:id="t82" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l82" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9">
+                     <font>
+                        <Font size="8.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <TextField fx:id="t031" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l031" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <TextField fx:id="t032" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l032" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <TextField fx:id="t033" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l033" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <children>
+                  <TextField fx:id="t034" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l034" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <children>
+                  <TextField fx:id="t035" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l035" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <children>
+                  <TextField fx:id="t036" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l036" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <children>
+                  <TextField fx:id="t037" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l037" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+            <Pane prefHeight="56.0" prefWidth="91.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <children>
+                  <TextField fx:id="t038" layoutX="6.0" layoutY="23.0" prefHeight="25.0" prefWidth="79.0" />
+                  <Label fx:id="l038" layoutX="6.0" layoutY="6.0" text="1,2,3,4,5,6,7,8,9" />
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

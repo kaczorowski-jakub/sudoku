@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="584.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.os.sudoku.controller.ControllerMain">
+   <children>
+      <ButtonBar buttonMinWidth="150.0" layoutX="393.0" layoutY="544.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#newGrid" text="Nowa plansza" />
+          <Button mnemonicParsing="false" onAction="#solve" text="Rozwiąż" />
+        </buttons>
+         <padding>
+            <Insets right="15.0" />
+         </padding>
+      </ButtonBar>
+      <Pane fx:id="mainPane" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
